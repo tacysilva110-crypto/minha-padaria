@@ -1,19 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Minha Padaria</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Padaria</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header><h1>🥖 Minha Padaria</h1></header>
-<nav>
-<a href="#doces">Doces</a>
-<a href="#salgados">Salgados</a>
-<a href="#encomendas">Encomendas</a>
-<a href="#contato">Contato</a>
-</nav>
-<section><h2>Bem-vindo à Minha Padaria</h2></section>
+
+    <header>
+        <div class="logo">
+            <span class="logo-icon">🥖</span>
+            <div>
+                <h2>Minha Padaria</h2>
+                <p>Pães fresquinhos todos os dias</p>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#doces">🍰 Doces</a></li>
+                <li><a href="#salgados">🥪 Salgados</a></li>
+                <li><a href="#encomendas">📦 Encomendas</a></li>
+                <li><a href="#contato">📞 Contato</a></li>
+                <li><a href="#trabalhe">💼 Trabalhe Conosco</a></li>
+                <li><a href="#conta">👤 Conta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="status">
+        ✅ Sistema online - Aceitando encomendas
+    </div>
+
+    <section class="destaque">
+        <h1>Bem-vindo à Minha Padaria</h1>
+
+        <div class="destaque-resumo">
+            <img src="img1.jpg" alt="Imagem da padaria">
+
+            <div>
+                <p>
+                    Na Minha Padaria, tradição e qualidade caminham juntas.
+                    Produzimos diariamente pães, doces e salgados utilizando
+                    ingredientes selecionados para oferecer o melhor aos nossos clientes.
+                </p>
+
+                <a href="#encomendas" class="btn-destaque">
+                    Fazer Encomenda
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cardapio">
+
+        <h2>Nosso Cardápio</h2>
+
+        <img src="padaria02.png" alt="Produtos da padaria">
+
+        <h3 id="salgados">🥪 Salgados</h3>
+
+        <div class="card">
+
+            <div class="card-food">
+                <h4>Lanche do Forno</h4>
+                <p>Pão artesanal com recheio especial.</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Lanche Tradicional</h4>
+                <p>Receita clássica preparada diariamente.</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Lanche Clássico</h4>
+                <p>Combinação perfeita de sabor e qualidade.</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Lanche Bacon & Queijo</h4>
+                <p>Recheio generoso de bacon e queijo.</p>
+            </div>
+
+        </div>
+
+        <h3 id="doces">🍰 Doces</h3>
+
+        <div class="card">
+
+            <div class="card-food">
+                <h4>Sonho de Creme</h4>
+                <p>Produção artesanal.</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Brigadeiro Gourmet</h4>
+                <p>Chocolate de alta qualidade.</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Torta de Morango</h4>
+                <p>Fresca e saborosa.</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Pudim Caseiro</h4>
+                <p>Receita tradicional.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="encomendas" class="formulario">
+        <h2>📦 Faça sua Encomenda</h2>
+
+        <form>
+
+            <input type="text" placeholder="Nome completo" required>
+
+            <input type="email" placeholder="E-mail" required>
+
+            <input type="tel" placeholder="Telefone" required>
+
+            <textarea placeholder="Descreva sua encomenda"></textarea>
+
+            <button type="submit">
+                Enviar Pedido
+            </button>
+
+        </form>
+
+        <p class="feedback">
+            ✔ Todos os campos obrigatórios ajudam a evitar erros no envio.
+        </p>
+
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>📞 Contato</h2>
+        <p>Telefone: (11) 99999-9999</p>
+        <p>E-mail: contato@minhapadaria.com.br</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Minha Padaria - Todos os direitos reservados.</p>
+    </footer>
+
 </body>
+
 </html>
